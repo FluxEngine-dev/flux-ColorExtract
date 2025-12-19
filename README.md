@@ -60,8 +60,6 @@ for color in dominant_colors:
 ## 依存関係
 
 * Python 3.10+
-
-* Python 3.10+
 * OpenCV (`opencv-python`)
 * NumPy
 * scikit-learn
