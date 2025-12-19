@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "flux-ColorExtract"
+version = "0.1.0"
+description = "A Python toolkit for image contrast enhancement (CLAHE), dominant color extraction via K-Means, and multilingual color name matching."
+readme = "README.md"
+authors = [{ name = "FluxEngine-dev" }]
+license = { file = "LICENSE" }
+dependencies = []
+requires-python = ">=3.10"
