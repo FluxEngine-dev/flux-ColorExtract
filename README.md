@@ -1,4 +1,4 @@
-# flux-ColorExtract
+# ColorExtract
 
 画像コントラスト強調（CLAHE）、K-Meansによる支配色抽出、多言語カラーネームマッチングのためのPythonモジュール
 
