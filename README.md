@@ -14,7 +14,7 @@
 ### GitHubから直接
 
 ```bash
-https:pip install git+https://github.com/FluxEngine-dev/flux-ColorExtract.git
+pip install git+https://github.com/FluxEngine-dev/flux-ColorExtract.git
 ```
 
 ### 開発用（リポジトリをクローンした後）
