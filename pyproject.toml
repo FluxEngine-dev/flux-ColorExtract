@@ -9,8 +9,8 @@ package-dir = {"" = "src"}
 where = ["src"]
 
 [project]
-name = "ColorExtract"
-version = "0.1.1"
+name = "colorextract"
+version = "0.1.2"
 description = "A Python toolkit for image contrast enhancement (CLAHE), dominant color extraction via K-Means, and multilingual color name matching."
 readme = "README.md"
 authors = [{ name = "FluxEngine-dev" }]

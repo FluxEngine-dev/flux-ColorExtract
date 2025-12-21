@@ -1,4 +1,4 @@
-# ColorExtract
+# colorextract
 
 画像コントラスト強調（CLAHE）、K-Meansによる支配色抽出、多言語カラーネームマッチングのためのPythonモジュール
 
@@ -14,7 +14,7 @@
 ### GitHubから直接
 
 ```bash
-pip install git+https://github.com/FluxEngine-dev/flux-ColorExtract.git
+pip install git+https://github.com/FluxEngine-dev/flux-colorextract.git
 ```
 
 ### 開発用（リポジトリをクローンした後）
@@ -27,7 +27,7 @@ pip install -e .
 
 ```python
 import cv2
-from ColorExtract import Clahe, ColorFeatureExtractor_KMeans, ColorMatcher
+from colorextract import Clahe, ColorFeatureExtractor_KMeans, ColorMatcher
 
 # 1. 画像の読み込みとコントラスト補正
 img = cv2.imread("sample.jpg")

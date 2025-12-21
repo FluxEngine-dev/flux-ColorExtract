@@ -1,7 +1,6 @@
-
-from ColorExtract.clahe import Clahe
-from ColorExtract.color_features import (
+from .clahe import Clahe
+from .color_features import (
   ColorFeatureExtractor_Histogram,
-  ColorFeatureExtractor_KMeans
+  ColorFeatureExtractor_KMeans,
 )
-from ColorExtract.color_matcher import ColorMatcher
+from .color_matcher import ColorMatcher
